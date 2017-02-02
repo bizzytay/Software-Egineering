@@ -14,10 +14,14 @@ def countFreq(string_arg, query):
 			frequency = frequency + 1
 	return frequency
 
+def subtract(a, b):
+	print "Sub", a - b
+
 def main():
 	data = 'guidorossumwashere'
 	print 'REVERSED ==>', reverseWord(data)
 	print 'FREQUENCY OF s IN', data, '==>', countFreq(data, 's')
+	subtract(1,5)
 
 if __name__ == "__main__": 
 	main()
