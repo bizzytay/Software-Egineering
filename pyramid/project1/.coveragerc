@@ -1,0 +1,3 @@
+[run]
+source = project1
+omit = project1/test*
